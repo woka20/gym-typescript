@@ -1,18 +1,18 @@
 
 import { useState, useEffect } from 'react';
 import './App.css'
-import Navbar from "@/scenes/navbar";
-import Home from "@/scenes/home";
-import OurClasses from "@/scenes/ourClasses";
+import Navbar from './scenes/navbar';
+import Home from "./scenes/home";
+import OurClasses from "./scenes/ourClasses";
 import Benefits from './scenes/benefits';
 import Footer from './scenes/footer';
 
-enum SelectedPage{
-  Home = "home",
-  Benefits = "benefits",
-  OurClasses = "ourclasses",
-  ContactUs= "contactus"
-}
+// enum SelectedPage{
+//   Home = "home",
+//   Benefits = "benefits",
+//   OurClasses = "ourclasses",
+//   ContactUs= "contactus"
+// }
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<string>("home")

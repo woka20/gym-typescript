@@ -1,10 +1,10 @@
-import React from 'react'
+// import React from 'react'
 import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from '@heroicons/react/20/solid'
 import {motion} from 'framer-motion'
 import { BenefitTypes } from '../navbar/shared/types'
 import Benefit from './Benefit'
-import { once } from 'events'
-import HText from '../navbar/shared/HText'
+// import { once } from 'events'
+// import HText from '../navbar/shared/HText'
 import ActionButton from '../navbar/shared/ActionButton'
 import BenefitsPageGraphic from '@/assets/BenefitsPageGraphic.png'
 
