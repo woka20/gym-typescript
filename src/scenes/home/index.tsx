@@ -22,7 +22,7 @@ const Home = ({ setSelectedPage }: Props) => {
       className='gap-16 bg-gray-20 py-10 md:h-full md:pb-0'>
       
       {/* {Image and Main header} */}
-      <motion.div className='md:flex mx-auto q-5/6 items-center justify-center md:h-5/6'
+      <motion.div className='md:flex mx-auto q-5/6 items-center justify-center w-5/6 md:h-5/6'
        initial="hidden"
        whileInView="visible"
        viewport={{ once: true, amount: 0.5 }} transition={{ duration: 0.5 }} variants={{ hidden: { opacity: 0, x: -50 }, visible: { opacity: 1, x: 0 } }}>
